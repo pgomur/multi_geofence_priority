@@ -1,0 +1,47 @@
+# === ALIRE (Reproducibilidad) ===
+/alire/
+/config/*
+!/config/config.gpr  # <-- CORREGIDO: sin #!
+*.gpr.lock
+*.bcheck
+*.bset
+*.lexch
+*.ln
+*.map
+
+# === BUILD OUTPUT ===
+/bin/
+/obj/
+/lib/
+*.ali
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+
+# === SPARK PROOF (solo caché) ===
+gnatprove/
+gnatprove.out
+*.gnat-json
+*.spark
+*.rlt
+*.vc
+*.sider
+# NOTA: /proof/ NO se ignora porque contiene geofence_lemmas.adb y otros fuentes
+
+# === IDE & TEMP ===
+.vscode/
+.gnatstudio/
+*.session
+*.cpr
+*.ath
+*.ads.lock
+*.adb.lock
+.auto.gpr
+*~
+.#*
+.DS_Store
+*.stackdump
+*.core
