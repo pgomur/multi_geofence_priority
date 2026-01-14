@@ -1,0 +1,14 @@
+name = "multi_geofence_priority"
+description = "Multi-geofence priority system, SPARK verified"
+version = "0.1.0-dev"
+
+authors = ["pgomur"]
+maintainers = ["pgomur <example@example.com>"]
+licenses = "MIT"
+website = "https://github.com/pgomur/multi_geofence_priority"
+tags = ["spark", "aviation", "safety-critical", "uas"]
+
+[[depends-on]]
+gnat_native = "=15.2.1"
+gprbuild = "=25.0.1"
+gnatprove = "=15.1.0"
