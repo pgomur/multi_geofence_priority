@@ -1,7 +1,5 @@
 # === ALIRE (Reproducibilidad) ===
 /alire/
-/config/*
-!/config/config.gpr  # <-- CORREGIDO: sin #!
 *.gpr.lock
 *.bcheck
 *.bset
@@ -29,7 +27,7 @@ gnatprove.out
 *.rlt
 *.vc
 *.sider
-# NOTA: /proof/ NO se ignora porque contiene geofence_lemmas.adb y otros fuentes
+/proof/
 
 # === IDE & TEMP ===
 .vscode/
