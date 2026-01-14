@@ -1,4 +1,4 @@
-# === ALIRE (Reproducibilidad) ===
+# === ALIRE ===
 /alire/
 *.gpr.lock
 *.bcheck
@@ -19,7 +19,7 @@
 *.dylib
 *.exe
 
-# === SPARK PROOF (solo caché) ===
+# === SPARK PROOF ===
 gnatprove/
 gnatprove.out
 *.gnat-json
