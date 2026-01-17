@@ -3,9 +3,7 @@
 Functional prototype with a formally verified core using Ada/SPARK, applying DO-178C principles and STANAG 4586-based priority logic for multi-zone geofencing systems in UAVs.
 
 <p>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-0078D7?logo=github&logoColor=white" />
-  </a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-7D9EC0?logo=github" /></a>
   <img src="https://img.shields.io/badge/Ada-2022-5A9BD5?style=flat&logo=ada&logoColor=white" />
   <img src="https://img.shields.io/badge/SPARK-FSF_15.0-1F3A93?style=flat&logo=ada&logoColor=white" />
   <img src="https://img.shields.io/badge/GNAT-15.2.1-FF7F11?style=flat&logo=gnu&logoColor=white" />
